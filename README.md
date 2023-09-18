@@ -1,1 +1,1 @@
-# Riceria.github.io
+# riceria.github.io
