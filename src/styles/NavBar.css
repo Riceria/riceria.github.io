@@ -1,0 +1,25 @@
+.nav-bar {
+    position: relative;
+    font-size: 54px;
+    width: fit-content;
+    opacity: 100%;
+}
+
+.nav-label {
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all ease 0.25s;
+    transition-property: color, opacity;
+}
+
+.nav-label:hover {
+    color: rgb(61, 170, 165);
+    opacity: 100%;
+}
+
+.nav-label-current {
+    color: rgb(75, 235, 187);
+    opacity: 100%;
+}

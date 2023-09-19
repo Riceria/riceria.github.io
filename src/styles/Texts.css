@@ -1,0 +1,12 @@
+.title-text {
+    position: relative;
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 72px;
+    text-align: center;
+}
+
+.paragraph-text {
+    font-size: 16px;
+    text-align: left;
+}
