@@ -26,6 +26,10 @@ a {
   transition-property: color, opacity, text-decoration;
 }
 
+h2 {
+  text-align: center;
+}
+
 @media only screen and (max-width: 650px) {
   a {
     text-decoration: none;
