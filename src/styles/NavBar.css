@@ -16,7 +16,7 @@
     }
 }
 
-@media only screen and (max-width: 649px) {
+@media only screen and (max-width: 650px) {
     .nav-bar {
         position: relative;
         font-size: 32px;

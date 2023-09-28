@@ -19,8 +19,8 @@ function App() {
   return (
     <div className="App hero-image">
       <div className="wrapper">
-        {/* <h2 style={{color:'gold'}}>CURRENTLY UNDER CONSTRUCTION</h2> */}
         <Title text={"BRENDAN MERCADO"}/>
+        <h2 style={{color:'gold'}}>CURRENTLY UNDER CONSTRUCTION</h2>
         <header className="nav-stack">
           <NavBar onMenuSwap={onNavClickHandler} />
         </header>
