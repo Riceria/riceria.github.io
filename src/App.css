@@ -1,3 +1,9 @@
+.hero-image {
+  background-color: rgba(0,0,0,0.55);
+  -webkit-backdrop-filter: brightness(50%) blur(6px);
+  backdrop-filter: brightness(50%) blur(6px);
+}
+
 @media only screen and (min-width: 650px) {
   .App {
     display: flex;
@@ -19,5 +25,44 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  .App {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .wrapper {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .nav-stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }

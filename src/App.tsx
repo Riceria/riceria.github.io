@@ -17,17 +17,17 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <Title text={"BRENDAN MERCADO"}/>
-      <h2 style={{color:'gold'}}>CURRENTLY UNDER CONSTRUCTION</h2>
+    <div className="App hero-image">
       <div className="wrapper">
+        {/* <h2 style={{color:'gold'}}>CURRENTLY UNDER CONSTRUCTION</h2> */}
+        <Title text={"BRENDAN MERCADO"}/>
         <header className="nav-stack">
           <NavBar onMenuSwap={onNavClickHandler} />
-          <Paragraph text={"My work is temporarily available on:"} />
-          <a href={OLD_SITE} target='_blank' rel="noreferrer">mercadobrendan7.wixsite.com</a>
-          <Paragraph text={"Website background by:"} />
-          <a href={BG_CREDIT} target="_blank" rel="noreferrer">@CLare</a>
         </header>
+        <div className="footer">
+          <Paragraph text={"My work is temporarily available on:"} linkText={"mercadobrendan7.wixsite.com"} aLink={OLD_SITE} />
+          <Paragraph text={"Website background by:"} linkText={"@CLare"} aLink={BG_CREDIT} />
+        </div>
       </div>
     </div>
   );

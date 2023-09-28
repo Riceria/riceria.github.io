@@ -1,17 +1,37 @@
-.nav-bar {
-    position: relative;
-    font-size: 54px;
-    width: fit-content;
-    opacity: 100%;
+@media only screen and (min-width: 650px) {
+    .nav-bar {
+        position: relative;
+        font-size: 54px;
+        width: fit-content;
+        opacity: 100%;
+    }
+
+    .nav-label {
+        margin: 30px;
+        padding: 20px;
+        text-align: center;
+        cursor: pointer;
+        transition: all ease 0.25s;
+        transition-property: color, opacity;
+    }
 }
 
-.nav-label {
-    margin: 30px;
-    padding: 20px;
-    text-align: center;
-    cursor: pointer;
-    transition: all ease 0.25s;
-    transition-property: color, opacity;
+@media only screen and (max-width: 649px) {
+    .nav-bar {
+        position: relative;
+        font-size: 32px;
+        width: fit-content;
+        opacity: 100%;
+    }
+
+    .nav-label {
+        margin: 10px;
+        padding: 5px;
+        text-align: left;
+        cursor: pointer;
+        transition: all ease 0.25s;
+        transition-property: color, opacity;
+    }
 }
 
 .nav-label:hover {

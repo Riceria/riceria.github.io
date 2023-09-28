@@ -1,3 +1,5 @@
 export interface IText {
-    text: string;
+    text?: string;
+    linkText?: string;
+    aLink?: string;
 }

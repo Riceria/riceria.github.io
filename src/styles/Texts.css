@@ -1,12 +1,32 @@
-.title-text {
-    position: relative;
-    margin-top: 50px;
-    padding: 20px;
-    font-size: 72px;
-    text-align: center;
+@media only screen and (min-width: 650px) {
+    .title-text {
+        position: relative;
+        margin-top: 50px;
+        padding: 20px;
+        font-size: 72px;
+        text-align: center;
+    }
+    
+    .paragraph-text {
+        font-size: 16px;
+        text-align: left;
+    }
 }
 
-.paragraph-text {
-    font-size: 16px;
-    text-align: left;
+@media only screen and (max-width: 649px) {
+    .title-text {
+        position: absolute;
+        top: 20px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 48px;
+        text-align: left;
+    }
+    
+    .paragraph-text {
+        margin: 5px;
+        padding-left: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
 }

@@ -11,9 +11,11 @@ body {
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
+  overflow-x: hidden;
   background-image: url("../public/bg.png");
-  backdrop-filter: brightness(50%) blur(6px);
-  overflow: hidden;
+  background-position: center;
+  background-size: cover;
 }
 
 a {
@@ -22,6 +24,20 @@ a {
   color: rgb(75, 235, 187);
   transition: all ease 0.25s;
   transition-property: color, opacity, text-decoration;
+}
+
+@media only screen and (max-width: 649px) {
+  a {
+    text-decoration: none;
+    color: rgb(75, 235, 187);
+    transition: all ease 0.25s;
+    transition-property: color, opacity, text-decoration;
+  }
+
+  h2 {
+    margin: 5px;
+    padding: 10px;
+  }
 }
 
 a:hover {
